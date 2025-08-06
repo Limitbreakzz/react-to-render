@@ -1,6 +1,6 @@
 import React from 'react';
 import CardList from '../components/CardList';
-import Footer from '../components/footer';
+import Footer from './../components/Footer';
 import ErrorMessage from '../components/ErrorMessage';
 import cardData from '../service/cardData';''
 const Products = () => {

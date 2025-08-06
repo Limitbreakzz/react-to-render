@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import allCardData from '../service/cardData'; 
-import Footer from '../components/footer';
+import Footer from './../components/Footer';
 
 const CardDetail = () => {
   const { id } = useParams();
