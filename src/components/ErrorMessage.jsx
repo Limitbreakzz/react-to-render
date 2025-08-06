@@ -1,22 +1,28 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const ErrorMessage = ({ message }) => {
   if (!message) {
-    return null; 
+    return null;
   }
 
   return (
-    <div style={{
-        color: '#D8000C',
-        backgroundColor: '#FFBABA',
-        border: '1px solid #D8000C',
-        padding: '10px',
-        borderRadius: '5px',
-        margin: '10px 0'
-    }}>
-      <p>{message}</p>
+    <div 
+      className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" 
+      role="alert"
+    >
+      <strong className="font-bold">Error!</strong>
+      <span className="block sm:inline ml-2">{message}</span>
     </div>
   );
+};
+
+ErrorMessage.propTypes = {
+  message: PropTypes.string,
+};
+
+ErrorMessage.defaultProps = {
+  message: null,
 };
 
 export default ErrorMessage;

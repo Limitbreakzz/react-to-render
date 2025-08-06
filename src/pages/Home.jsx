@@ -1,6 +1,6 @@
-// src/pages/Home.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Button from './../components/Button';
 import Footer from './../components/Footer';
 
 const Home = () => {
@@ -21,9 +21,7 @@ const Home = () => {
             <div className="md:w-1/2 w-full p-4">
               <h2 className="text-3xl font-bold text-blue-800 mb-4">ขายอาวุธ</h2>
               <p className="text-gray-700 leading-relaxed mb-4">"อาวุธสดๆจากเตา"</p>
-              <Link to="Collection" className="px-6 py-3 bg-blue-800 text-white rounded-lg shadow-md hover:bg-blue-600 transition duration-300">
-              รายบ
-              </Link>
+              <Button />
             </div>
             {/* รูปภาพด้านขวา */}
             <div className="md:w-1/2 w-full p-4">
