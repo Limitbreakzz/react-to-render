@@ -28,7 +28,7 @@ const Home = () => {
             {/* รูปภาพด้านขวา */}
             <div className="md:w-1/2 w-full p-4">
               <img
-                src="/src/img/แมว.jpg"
+                src="แมว.jpg"
                 alt="แมว"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
