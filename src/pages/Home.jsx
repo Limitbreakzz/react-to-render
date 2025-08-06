@@ -28,8 +28,8 @@ const Home = () => {
             {/* รูปภาพด้านขวา */}
             <div className="md:w-1/2 w-full p-4">
               <img
-                src="/public/แมว.jpg"
-                alt="ปกหน้าหลัก"
+                src="/src/img/แมว.jpg"
+                alt="แมว"
                 className="w-full h-auto rounded-lg shadow-lg"
               />
             </div>
